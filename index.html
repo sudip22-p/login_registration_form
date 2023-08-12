@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Login Page</title>
 </head>
@@ -13,22 +14,20 @@
                 <h3>Login</h3>
                 <div class="label">Username or Email address</div>
                 <input type="text" id="login-id" name="login-id" required>
-                <div class="label">Password</div>
-                <input type="password" id="login-password" name="login-password" required>
+                <div class="label">Password<i class="fa fa-eye toggle-password" id="login-toggle-password"></i></div>
+                <input class="login-password" type="password" id="login-password" name="login-password" required>
                 <div class="password-reset">Forget Password?<a href="./retrieve.html">Retrieve now</a></div>
                 <input type="submit" value="Login">
             </form>
             <div class="go-with">
                 <ul>
-                    <li><a href="#">Fb</a></li>
-                    <li><a href="#">Tw</a></li>
-                    <li><a href="#">Ggl</a></li>
-                    <li><a href="#">git</a></li>
+                    <li><a href="#"><i class="fa fa-facebook-square fa-3x" style="color: #5287e9;"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus-square fa-3x" style="color: #e91e63;"></i></a></li>
                 </ul>
             </div>
             <div class="toggle goto-register">Not a member?<a href="./register.html">Sign Up</a></div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

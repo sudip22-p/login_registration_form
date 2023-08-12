@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Register Page</title>
 </head>
@@ -15,27 +16,25 @@
                 <input type="text" id="name" name="name" required>
                 <div class="label">Username or Email address</div>
                 <input type="text" id="id" name="id" required>
-                <div class="label">Password</div>
-                <input type="password" id="password" name="password" required>
+                <div class="label">Password<i class="fa fa-eye toggle-password" id="register-toggle-password"></i></div>
+                <input class="register-password" type="password" id="password" name="password" required>
                 <div class="label">Repeat Password</div>
-                <input type="r-password" id="r-password" name="r-password" required>
+                <input class="register-password" type="password" id="r-password" name="r-password" required>
                 <div class="terms-n-conditions">
                     <input type="checkbox" name="terms" id="terms" required>
-                    <span>I agree all the <span class="pop-up-on-click">terms and conditions</span></span>
+                    <span>I agree to all <span class="pop-up-on-click">terms and conditions!</span></span>
                 </div>
-                <input type="submit" value="Register">
+                <input id="register-submit" type="submit" value="Register">
             </form>
             <div class="go-with">
                 <ul>
-                    <li><a href="#">Fb</a></li>
-                    <li><a href="#">Tw</a></li>
-                    <li><a href="#">Ggl</a></li>
-                    <li><a href="#">git</a></li>
+                    <li><a href="#"><i class="fa fa-facebook-square fa-3x" style="color: #5287e9;"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus-square fa-3x" style="color: #e91e63;"></i></a></li>
                 </ul>
             </div>
             <div class="toggle goto-login">Already a member?<a href="./index.html">Sign In</a></div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

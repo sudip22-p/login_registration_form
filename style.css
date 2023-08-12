@@ -90,6 +90,7 @@ div.form-container form input[type="submit"]:hover{
 div.form-container form input:focus{
     border-bottom: 2px solid #e91e63;
     outline: none;
+    top: 4px;
     transition: 1s;
 }
 div.form-container form input:valid{
@@ -119,6 +120,11 @@ div.form-container div.go-with ul{
 }
 a{
     text-decoration: none;
+}
+.toggle-password{
+    color: rgb(228, 55, 55);
+    position: relative;
+    left: 20px;
 }
 @media (max-width:1025px) {
     .wrapper{
