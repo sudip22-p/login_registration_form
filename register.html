@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Register Page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-container register">
+            <form action="./index.html">
+                <h3>Register</h3>
+                <div class="label">Full Name</div>
+                <input type="text" id="name" name="name" required>
+                <div class="label">Username or Email address</div>
+                <input type="text" id="id" name="id" required>
+                <div class="label">Password</div>
+                <input type="password" id="password" name="password" required>
+                <div class="label">Repeat Password</div>
+                <input type="r-password" id="r-password" name="r-password" required>
+                <div class="terms-n-conditions">
+                    <input type="checkbox" name="terms" id="terms" required>
+                    <span>I agree all the <span class="pop-up-on-click">terms and conditions</span></span>
+                </div>
+                <input type="submit" value="Register">
+            </form>
+            <div class="go-with">
+                <ul>
+                    <li><a href="#">Fb</a></li>
+                    <li><a href="#">Tw</a></li>
+                    <li><a href="#">Ggl</a></li>
+                    <li><a href="#">git</a></li>
+                </ul>
+            </div>
+            <div class="toggle goto-login">Already a member?<a href="./index.html">Sign In</a></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
