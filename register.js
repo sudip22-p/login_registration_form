@@ -27,6 +27,8 @@ let openPopupLink = document.getElementsByClassName("pop-up-on-click")[0];
   //pasword show->
   const showPW=document.getElementById("toggle-password");
   showPW.addEventListener("click",()=>{
+    showPW.classList.toggle("fa-eye");
+    showPW.classList.toggle("fa-eye-slash");
     const targets=document.getElementsByClassName("register-password");
     for(i=0;i<targets.length;i++){
         if(targets[i].type=="password"){
