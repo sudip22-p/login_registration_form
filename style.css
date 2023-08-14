@@ -122,9 +122,10 @@ a{
     text-decoration: none;
 }
 .toggle-password{
-    color: rgb(228, 55, 55);
+    color: rgb(173 26 44);;
     position: relative;
     left: 20px;
+    bottom: 1px;
 }
 @media (max-width:1025px) {
     .wrapper{
